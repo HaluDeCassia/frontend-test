@@ -1,6 +1,6 @@
 import React from "react";
 
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 
 import Date from "../assets/svg/Icon/Date.svg";
 import Image from "../assets/svg/Icon/Image.svg";
@@ -12,10 +12,8 @@ import Search from "../assets/svg/Icon/Search.svg";
 
 const Home = () => {
   return (
-    <div className="">
-      <header className="gray-background">
-        <Nav />
-      </header>
+    <div>
+      <Header />
       <h1 className="text-4xl font-bold text-indigo-500">Teste de UI</h1>
       <h3 className="text-left text-2xl font-medium text-gray-700 mb-4">
         Desafio
