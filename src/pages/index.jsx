@@ -1,4 +1,7 @@
 import React from "react";
+
+import Nav from "../components/Nav";
+
 import Date from "../assets/svg/Icon/Date.svg";
 import Image from "../assets/svg/Icon/Image.svg";
 import Logo from "../assets/svg/Icon/Logo.svg";
@@ -9,7 +12,10 @@ import Search from "../assets/svg/Icon/Search.svg";
 
 const Home = () => {
   return (
-    <div className="p-12 container max-w-lg px-4 mx-auto">
+    <div className="">
+      <header className="gray-background">
+        <Nav />
+      </header>
       <h1 className="text-4xl font-bold text-indigo-500">Teste de UI</h1>
       <h3 className="text-left text-2xl font-medium text-gray-700 mb-4">
         Desafio
