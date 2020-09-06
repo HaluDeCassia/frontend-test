@@ -4,7 +4,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.gray-background {
-  background: linear-gradient(180deg, #A0AEC0 0%, #718096 100%);
-}
