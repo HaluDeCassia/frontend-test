@@ -5,6 +5,7 @@
     "build": "next build"
   },
   "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
     "next": "^9.5.3",
     "next-react-svg": "^1.1.2",
     "react": "^16.13.1",

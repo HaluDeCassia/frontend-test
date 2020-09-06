@@ -5,4 +5,5 @@ module.exports = {
   purge: {
     content: ["./src/components/**/*.jsx", "./src/pages/**/*.jsx"],
   },
+  plugins: [require("@tailwindcss/custom-forms")]
 };
