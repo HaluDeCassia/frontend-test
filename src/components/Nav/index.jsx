@@ -7,11 +7,11 @@ const Nav = () => {
   return (
     <nav className="flex border-solid border-b border-white border-solid items-center justify-between flex-wrap py-6 mx-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Logo width={60} height={60} color='white' classNameName="inline-block" />
+        <Logo width={60} height={60} color='white' className="inline-block" />
       </div>
       <div className="block md:hidden">
         <button className="flex items-center px-2 py-2 text-white hover:text-indigo-200">
-          <Menu width={32} height={32} color='white' classNameName="inline-block" />
+          <Menu width={32} height={32} fill='white' className="inline-block" />
         </button>
       </div>
       <div className="w-full block flex-grow md:flex md:items-center md:w-auto">
