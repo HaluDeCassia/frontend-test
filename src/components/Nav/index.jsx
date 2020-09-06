@@ -5,7 +5,7 @@ import Menu from "../../assets/svg/Icon/Menu.svg";
 
 const Nav = () => {
   return (
-    <nav className="flex border-solid border-b border-white border-solid items-center justify-between flex-wrap p-6">
+    <nav className="flex border-solid border-b border-white border-solid items-center justify-between flex-wrap py-6 mx-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Logo width={60} height={60} color='white' classNameName="inline-block" />
       </div>
