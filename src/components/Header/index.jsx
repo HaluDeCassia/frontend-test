@@ -4,7 +4,7 @@ import Nav from "../Nav";
 
 const Header = () => {
   return (
-    <header className="gray-background lg:pr-64 lg:pl-64">
+    <header className="lg:pr-64 lg:pl-64 bg-gradient-to-b from-gray-500 to-gray-600">
       <Nav />
       <h1 className="text-5xl font-bold text-white text-center mt-10">
         Viaje pelo mundo inteiro
