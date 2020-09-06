@@ -2,7 +2,9 @@
 Estudo utilizando [Tailwind](https://tailwindcss.com/), [React.js](https://pt-br.reactjs.org/) e [Next.js](https://nextjs.org)
 
 
-*Obs.: Todos os comandos de scripts descritos aqui precisam ser executados na pasta razi desse projeto, tendo instalado previamente Nodejs, npm e/ou yarn*
+*Observações.:*
++ *Todos os comandos de scripts descritos aqui precisam ser executados na pasta raiz desse projeto, tendo instalado previamente Nodejs, npm e/ou yarn*
++ *Em casos de redimensionamento da tela (diminuir e aumentar a janela do navegador) pode ser necessário recarregar a página para que o menu se comporte como deveria*
 
 ## Instalar dependências
 ### `yarn` ou `npm i`
